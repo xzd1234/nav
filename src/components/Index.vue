@@ -215,6 +215,7 @@ footer {
     display: flex;
     align-items: center;
     span {
+      margin-left: 10px;
       color: #57abf5;
       cursor: pointer;
     }
