@@ -45,7 +45,7 @@ const onSearch = () => {
 <template>
   <div :class="['pages', bgStatus]">
     <div class="header-box common">
-      <div class="logo">前端工具包*</div>
+      <div class="logo">前端工具包</div>
       <div class="input-box">
         <el-input v-model="input3" size="large" autofocus placeholder="请输入搜索内容">
           <template #prepend>
