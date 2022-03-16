@@ -54,7 +54,7 @@ const onSearch = () => {
             </el-select>
           </template>
           <template #append>
-            <el-button type="warning" :icon="Search" @click="onSearch"  ></el-button>
+            <el-button type="warning" :icon="Search" @click="onSearch"></el-button>
           </template>
         </el-input>
       </div>
@@ -212,6 +212,8 @@ footer {
   justify-content: center;
   .text {
     padding: 10px;
+    display: flex;
+    align-items: center;
     span {
       color: #57abf5;
       cursor: pointer;
