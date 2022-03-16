@@ -5,7 +5,7 @@ import data from '../assets/data.js'
 import { Search } from '@element-plus/icons-vue'
 
 const list = ref([])
-list.value=data
+list.value = data
 /* axios.post('/api/project/list').then(res => {
   console.log(res.data.data)
   list.value = res.data.data
@@ -34,7 +34,9 @@ const selectList = ref([{
   name: '搜狗'
 }])
 const onSearch = () => {
-  window.open(select.value + input3.value)
+  if (input3.value != '') {
+    window.open(select.value + input3.value)
+  }
 
 }
 </script>
@@ -43,7 +45,6 @@ const onSearch = () => {
   <div :class="['pages', bgStatus]">
     <div class="header-box common">
       <div class="logo">前端工具包</div>
-
       <div class="input-box">
         <el-input v-model="input3" size="large" autofocus placeholder="请输入搜索内容">
           <template #prepend>
