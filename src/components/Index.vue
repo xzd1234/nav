@@ -39,6 +39,7 @@ const onSearch = () => {
   }
 
 }
+
 </script>
 
 <template>
@@ -53,7 +54,7 @@ const onSearch = () => {
             </el-select>
           </template>
           <template #append>
-            <el-button type="warning" :icon="Search" @click="onSearch"></el-button>
+            <el-button type="warning" :icon="Search" @click="onSearch"  ></el-button>
           </template>
         </el-input>
       </div>
@@ -149,10 +150,10 @@ const onSearch = () => {
     display: grid;
     grid-row-gap: 14px;
     grid-column-gap: 14px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     li {
-      height: 90px;
-      padding: 10px;
+      height: 68px;
+      padding: 14px;
 
       background: rgba(255, 255, 255, 1);
       position: relative;
@@ -187,14 +188,14 @@ const onSearch = () => {
       }
       .desc {
         width: 100%;
-        height: 34px;
+        height: 16px;
         margin-top: 8px;
         font-size: 14px;
         text-align: left;
         color: #333;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 1;
         overflow: hidden;
       }
     }
