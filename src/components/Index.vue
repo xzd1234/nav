@@ -205,7 +205,6 @@ const onSearch = () => {
 footer {
   height: 100px;
   line-height: 100px;
-  border: 1px solid #aaa;
   margin-bottom: 10px;
   color: #515a6e;
   display: flex;

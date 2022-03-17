@@ -5,32 +5,7 @@ const data = {
     { name: '备案号', desc: ' 浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
   ],
   menuList: [
-    {
-      name: "精品推荐",
-      icon: "geek-tuijian",
-      list: [
-        {
-          name: "腾讯云",
-          desc: "产业智变 云启未来",
-          icon: "https://xiezhendong.cn/static/images/tencent.ico",
-          url: "https://cloud.tencent.com/"
-        },
-        {
-          name: "阿里云",
-          desc: "上云就上阿里云",
-          icon: "https://xiezhendong.cn/static/images/aliyun.ico",
-          url: "https://www.aliyun.com/"
-        },
-        {
-          name: "华为云",
-          desc: "智能，见未来",
-          icon: "https://xiezhendong.cn/static/images/huawei.png",
-          url: "https://www.huaweicloud.com/"
-        },
-
-
-      ]
-    }, {
+     {
       name: "前端框架",
       icon: "geek-mobankuangjia-xianxing",
       list: [
@@ -243,6 +218,38 @@ const data = {
       ]
     },
     {
+      name: "云端服务",
+      icon: "geek-tuijian",
+      list: [
+        {
+          name: "腾讯云",
+          desc: "产业智变 云启未来",
+          icon: "https://xiezhendong.cn/static/images/tencent.ico",
+          url: "https://cloud.tencent.com/"
+        },
+        {
+          name: "阿里云",
+          desc: "上云就上阿里云",
+          icon: "https://xiezhendong.cn/static/images/aliyun.ico",
+          url: "https://www.aliyun.com/"
+        },
+        {
+          name: "华为云",
+          desc: "智能，见未来",
+          icon: "https://xiezhendong.cn/static/images/huawei.png",
+          url: "https://www.huaweicloud.com/"
+        },
+        {
+          name: "百度云",
+          desc: "智能时代基础设施",
+          icon: "https://xiezhendong.cn/static/images/baidu.png",
+          url: "https://cloud.baidu.com/"
+        },
+
+
+      ]
+    },
+    {
       name: "图形动效",
       icon: "geek-fuwenbenbianjiqi_dongxiao",
       list: [
@@ -343,7 +350,7 @@ const data = {
       icon: "geek-sucaizhongxin",
       list: [
         {
-          name: "清华大学开源软件镜像",
+          name: "清华大学开源镜像",
           desc: "清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务",
           icon: "https://xiezhendong.cn/static/images/qinghuajingxiang.png",
           url: "https://mirrors.tuna.tsinghua.edu.cn/"
