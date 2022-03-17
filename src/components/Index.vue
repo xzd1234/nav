@@ -130,6 +130,10 @@ const onSearch = () => {
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
+    &:deep(.el-input-group--prepend>.el-input__inner:focus) {
+      outline: none;
+      box-shadow:none;
+    }
   }
 }
 .item {

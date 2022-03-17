@@ -16,7 +16,7 @@ const data = {
           url: "https://zh-hans.reactjs.org/"
         },
         {
-          name: "Vue",
+          name: "Vue3",
           desc: "构建数据驱动的web渐进式框架",
           icon: "https://xiezhendong.cn/static/images/vue.png",
           url: "https://v3.cn.vuejs.org/"

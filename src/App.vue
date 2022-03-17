@@ -3,11 +3,14 @@
 import Index from './components/Index.vue'
 </script>
 
-<template>
+<template >
   <Index />
 </template>
 
 <style>
+[v-clock] {
+  display: none;
+}
 html,
 body,
 #app {
