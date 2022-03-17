@@ -45,7 +45,7 @@ const onSearch = () => {
 <template>
   <div :class="['pages', bgStatus]">
     <div class="header-box common">
-      <div class="logo">前端工具包</div>
+      <div class="logo">工具包</div>
       <div class="input-box">
         <el-input v-model="input3" size="large" autofocus placeholder="请输入搜索内容">
           <template #prepend>
@@ -93,7 +93,6 @@ const onSearch = () => {
 .pages {
   width: 100%;
   min-height: 900px;
-  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -209,12 +208,11 @@ const onSearch = () => {
 footer {
   height: 100px;
   line-height: 100px;
-  margin-bottom: 10px;
   color: #515a6e;
   display: flex;
   justify-content: center;
   .text {
-    padding: 10px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     span {
@@ -224,12 +222,26 @@ footer {
     }
   }
 }
+@media (max-width: 1400px) {
+  .common {
+    width: 1100px;
+    border-radius: 8px;
+  }
+}
 @media (max-width: 1300px) {
   .common {
     width: 1000px;
     border-radius: 8px;
   }
 }
+@media (max-width: 1200px) {
+  .common {
+    width: 900px;
+    border-radius: 8px;
+  }
+}
+
+
 .day {
   background: url("../assets/img/day_cloud.png"),
     linear-gradient(180deg, #0260ac, #3992e0 36%, #9ce0fe 77%, #eff9fd);
