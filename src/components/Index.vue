@@ -108,7 +108,7 @@ const onSearch = () => {
   margin-top: 40px;
   height: 140px;
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 0 10px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
