@@ -143,6 +143,12 @@ const data = {
       icon: "geek-shequ",
       list: [
         {
+          name: "微信公众平台",
+          desc: "微信公众平台，给个人、企业和组织提供业务服务与用户管理能力的全新服务平台。",
+          icon: "https://xiezhendong.cn/static/images/weui.ico",
+          url: "https://mp.weixin.qq.com/"
+        },
+        {
           name: "掘金",
           desc: "只有高手分享的中文技术社区",
           icon: "https://xiezhendong.cn/static/images/gold.png",
