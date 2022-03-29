@@ -48,7 +48,13 @@ const onSearch = () => {
     <div class="header-box common">
       <div class="logo">工具包</div>
       <div class="input-box">
-        <el-input v-model="input3" size="large" autofocus placeholder="请输入搜索内容" @keydown.enter="onSearch">
+        <el-input
+          v-model="input3"
+          size="large"
+          autofocus
+          placeholder="请输入搜索内容"
+          @keydown.enter="onSearch"
+        >
           <template #prepend>
             <el-select v-model="select" placeholder="百度" style="width: 80px">
               <el-option v-for="item in selectList" :label="item.name" :value="item.url" />
@@ -122,7 +128,6 @@ const onSearch = () => {
     color: #fff;
   }
   .input-box {
-    width: 500px;
     height: 42px;
     border-radius: 6px;
     background: #a8abb2;
@@ -130,9 +135,9 @@ const onSearch = () => {
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
-    &:deep(.el-input-group--prepend>.el-input__inner:focus) {
+    &:deep(.el-input-group--prepend > .el-input__inner:focus) {
       outline: none;
-      box-shadow:none;
+      box-shadow: none;
     }
   }
 }
@@ -223,10 +228,18 @@ footer {
     }
   }
 }
+@media (min-width: 1400px) {
+  .input-box {
+    width: 500px;
+  }
+}
 @media (max-width: 1400px) {
   .common {
     width: 1100px;
     border-radius: 8px;
+  }
+  .input-box {
+    width: 470px;
   }
 }
 @media (max-width: 1300px) {
@@ -234,14 +247,37 @@ footer {
     width: 1000px;
     border-radius: 8px;
   }
+  .input-box {
+    width: 440px;
+  }
 }
 @media (max-width: 1200px) {
   .common {
     width: 900px;
     border-radius: 8px;
   }
+  .input-box {
+    width: 410px;
+  }
 }
-
+@media (max-width: 1100px) {
+  .common {
+    width: 800px;
+    border-radius: 8px;
+  }
+  .input-box {
+    width: 380px;
+  }
+}
+@media (max-width: 1000px) {
+  .common {
+    width: 800px;
+    border-radius: 8px;
+  }
+  .input-box {
+    width: 350px;
+  }
+}
 
 .day {
   background: url("../assets/img/day_cloud.png"),
