@@ -40,6 +40,7 @@ const onSearch = () => {
 
 }
 
+
 </script>
 
 <template>
@@ -47,7 +48,7 @@ const onSearch = () => {
     <div class="header-box common">
       <div class="logo">工具包</div>
       <div class="input-box">
-        <el-input v-model="input3" size="large" autofocus placeholder="请输入搜索内容">
+        <el-input v-model="input3" size="large" autofocus placeholder="请输入搜索内容" @keydown.enter="onSearch">
           <template #prepend>
             <el-select v-model="select" placeholder="百度" style="width: 80px">
               <el-option v-for="item in selectList" :label="item.name" :value="item.url" />
@@ -112,7 +113,7 @@ const onSearch = () => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
   .logo {
     width: 180px;
     font-size: 24px;
