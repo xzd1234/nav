@@ -6,7 +6,7 @@ const data = {
   ],
   menuList: [
      {
-      name: "前端框架",
+      name: "框架函数",
       icon: "geek-mobankuangjia-xianxing",
       list: [
         {
@@ -63,6 +63,12 @@ const data = {
           desc: "多端统一开发解决方案",
           icon: "https://xiezhendong.cn/static/images/taro.ico",
           url: "https://taro.aotu.io/"
+        },
+        {
+          name: "Lodash",
+          desc: "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。",
+          icon: "https://xiezhendong.cn/static/images/lodash.png",
+          url: "https://www.lodashjs.com/"
         }
       ]
     },

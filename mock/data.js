@@ -1,5 +1,5 @@
-
-const data = {
+import data from '../src/assets/data'
+/*const data = {
   footerList: [
     { name: '© 2021 BY ', desc: 'XZD', url: 'https://xiezhendong.cn/nav/' },
     { name: '备案号', desc: '浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
@@ -438,7 +438,7 @@ const data = {
     }
   ]
 }
-
+*/
 
 export default data;
 
