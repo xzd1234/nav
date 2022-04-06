@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue'
 import axios from 'axios'
-import data from '../assets/data.js'
 import { Search } from '@element-plus/icons-vue'
 
 const list = ref([])
@@ -78,14 +77,14 @@ const onSearch = () => {
       ></iframe>
     </div>
     <div class="common item" v-for="(item, i) of list" :key="i">
-      <div class="item-title">{{ item.name }}</div>
+      <div class="item-title">{{ item.type }}</div>
       <ul class="list-box">
-        <li v-for="(obj, j) in item.list" :key="j" @click="goto(obj.url)">
+        <li v-for="(obj, j) in item.list" :key="j" @click="goto(obj.nav_url)">
           <div class="lits-top">
-            <img :src="obj.icon" alt />
-            <span>{{ obj.name }}</span>
+            <img :src="obj.nav_icon" alt />
+            <span>{{ obj.nav_title }}</span>
           </div>
-          <div class="desc">{{ obj.desc }}</div>
+          <div class="desc">{{ obj.nav_desc }}</div>
         </li>
       </ul>
     </div>

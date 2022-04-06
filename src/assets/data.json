@@ -1,0 +1,516 @@
+{
+  "RECORDS": [
+    {
+      "nav_title": "React",
+      "nav_desc": "用于构建用户界面的Javscript库",
+      "nav_icon": "https://xiezhendong.cn/static/images/react.png",
+      "nav_url": "https://zh-hans.reactjs.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Vue3",
+      "nav_desc": "构建数据驱动的web渐进式框架",
+      "nav_icon": "https://xiezhendong.cn/static/images/vue.png",
+      "nav_url": "https://staging-cn.vuejs.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "jQuery",
+      "nav_desc": "优秀的JavaScript代码库",
+      "nav_icon": "https://xiezhendong.cn/static/images/jquery.ico",
+      "nav_url": "https://www.jquery123.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Bootstrap",
+      "nav_desc": "基于HTML/CSS/JS的前端框架",
+      "nav_icon": "https://xiezhendong.cn/static/images/bootstrap.ico",
+      "nav_url": "https://www.bootcss.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "React Native",
+      "nav_desc": "使用React构建原生app的框架",
+      "nav_icon": "https://xiezhendong.cn/static/images/reactnative.svg",
+      "nav_url": "https://reactnative.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "RxJs",
+      "nav_desc": "提供强大的数据流组合和控制能力的Reactive编程库",
+      "nav_icon": "https://xiezhendong.cn/static/images/rx.png",
+      "nav_url": "https://rxjs-dev.firebaseapp.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Uniapp",
+      "nav_desc": "基于Vue的跨端框架",
+      "nav_icon": "https://xiezhendong.cn/static/images/uniapp.png",
+      "nav_url": "https://uniapp.dcloud.io/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Mpvue",
+      "nav_desc": "基于Vue的小程序框架",
+      "nav_icon": "https://xiezhendong.cn/static/images/mpvue.png",
+      "nav_url": "http://mpvue.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Taro",
+      "nav_desc": "多端统一开发解决方案",
+      "nav_icon": "https://xiezhendong.cn/static/images/taro.ico",
+      "nav_url": "https://taro.aotu.io/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Lodash",
+      "nav_desc": "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。",
+      "nav_icon": "https://xiezhendong.cn/static/images/lodash.png",
+      "nav_url": "https://www.lodashjs.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Element Ui",
+      "nav_desc": "基于Vue2.x的PC组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/element.ico",
+      "nav_url": "https://element.eleme.cn/#/zh-CN",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Element Plus",
+      "nav_desc": "基于Vue3.x的PC组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/element.ico",
+      "nav_url": "https://element-plus.gitee.io/zh-CN/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "iView Ui",
+      "nav_desc": "基于Vue的高质量Ui组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/iview.ico",
+      "nav_url": "https://iviewui.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Naive Ui",
+      "nav_desc": "一个 Vue 3 组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/naive.svg",
+      "nav_url": "https://www.naiveui.com",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Ant-Design-Vue",
+      "nav_desc": "基于Vue的Ui组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/ant.ico",
+      "nav_url": "https://www.antdv.com/docs/vue/introduce-cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Vant Ui",
+      "nav_desc": "基于Vue的轻量移动端组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/vant.png",
+      "nav_url": "https://vant-contrib.gitee.io/vant/#/zh-CN/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Vux",
+      "nav_desc": "基于WeUI和Vue的移动端UI组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/vux.png",
+      "nav_url": "https://vux.li/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Mint Ui",
+      "nav_desc": "基于Vue的移动端组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/mint.svg",
+      "nav_url": "http://mint-ui.github.io/?from=thosefree.com#!/zh-cn",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "weui",
+      "nav_desc": "微信团队为微信内网页和微信小程序量身设计的的基础样式库",
+      "nav_icon": "https://xiezhendong.cn/static/images/weui.ico",
+      "nav_url": "https://weui.io/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "weui+",
+      "nav_desc": "在weui和zepto基础上开发的增强UI组件",
+      "nav_icon": "https://xiezhendong.cn/static/images/weuiplus.png",
+      "nav_url": "https://weui.shanliwawa.top/weui/index.html",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "DataV",
+      "nav_desc": "Vue 大屏数据展示组件库",
+      "nav_icon": "https://xiezhendong.cn/static/images/datav.ico",
+      "nav_url": "http://datav.jiaminghi.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "微信公众平台",
+      "nav_desc": "微信公众平台，给个人、企业和组织提供业务服务与用户管理能力的全新服务平台。",
+      "nav_icon": "https://xiezhendong.cn/static/images/weui.ico",
+      "nav_url": "https://mp.weixin.qq.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "掘金",
+      "nav_desc": "只有高手分享的中文技术社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/gold.png",
+      "nav_url": "https://juejin.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "GitHub",
+      "nav_desc": "世界最大开源及私有软件项目的托管平台",
+      "nav_icon": "https://xiezhendong.cn/static/images/github.png",
+      "nav_url": "https://github.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Gitee",
+      "nav_desc": "中国最大开源及私有软件项目的托管平台",
+      "nav_icon": "https://xiezhendong.cn/static/images/gitee.png",
+      "nav_url": "https://gitee.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "知乎",
+      "nav_desc": "中国最大问答社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/zhihu.png",
+      "nav_url": "https://zhihu.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "简书",
+      "nav_desc": "一个写作的社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/jianshu.png",
+      "nav_url": "https://www.jianshu.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "博客园",
+      "nav_desc": "面向开发者的知识分享社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/bky.svg",
+      "nav_url": "https://www.cnblogs.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "吾爱破解",
+      "nav_desc": "吾爱破解论坛致力于软件安全与病毒分析的前沿，由无数热衷于软件加密解密及反病毒爱好者共同维护 ",
+      "nav_icon": "https://xiezhendong.cn/static/images/wuaipojie.png",
+      "nav_url": "https://www.52pojie.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "印记中文",
+      "nav_desc": "印记中文是最权威是技术中文文档社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/docschina.png",
+      "nav_url": "https://docschina.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "SegmentFault",
+      "nav_desc": "一个专注于解决编程问题，提高开发技能的社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/segmentfault.png",
+      "nav_url": "https://segmentfault.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "CNode",
+      "nav_desc": "Node.js专业中文社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/cnodejs.png",
+      "nav_url": "https://cnodejs.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "W3cplus",
+      "nav_desc": "W3cplus是一个致力于推广国内前端行业的技术博客",
+      "nav_icon": "https://xiezhendong.cn/static/images/w3cplus.png",
+      "nav_url": "https://www.w3cplus.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "菜鸟教材",
+      "nav_desc": "学的不仅是技术，更是梦想",
+      "nav_icon": "https://xiezhendong.cn/static/images/cn.png",
+      "nav_url": "https://www.runoob.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "腾讯云",
+      "nav_desc": "产业智变 云启未来",
+      "nav_icon": "https://xiezhendong.cn/static/images/tencent.ico",
+      "nav_url": "https://cloud.tencent.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "阿里云",
+      "nav_desc": "上云就上阿里云",
+      "nav_icon": "https://xiezhendong.cn/static/images/aliyun.ico",
+      "nav_url": "https://www.aliyun.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "华为云",
+      "nav_desc": "智能，见未来",
+      "nav_icon": "https://xiezhendong.cn/static/images/huawei.png",
+      "nav_url": "https://www.huaweicloud.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "百度云",
+      "nav_desc": "智能时代基础设施",
+      "nav_icon": "https://xiezhendong.cn/static/images/baidu.png",
+      "nav_url": "https://cloud.baidu.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Echarts",
+      "nav_desc": "百度开发的可定制的数据可视化图表",
+      "nav_icon": "https://xiezhendong.cn/static/images/echarts.png",
+      "nav_url": "https://echarts.apache.org/zh/index.html",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Highcharts",
+      "nav_desc": "兼容 IE6+、支持移动端、图表类型丰富的HTML5交互性图表库",
+      "nav_icon": "https://xiezhendong.cn/static/images/highcharts.png",
+      "nav_url": "https://www.highcharts.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Threejs",
+      "nav_desc": "运行在浏览器中的3D 引擎",
+      "nav_icon": "https://xiezhendong.cn/static/images/threejs.png",
+      "nav_url": "https://threejs.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "D3",
+      "nav_desc": "用动态图形显示数据的JavaScript库",
+      "nav_icon": "https://xiezhendong.cn/static/images/d3.png",
+      "nav_url": "https://d3js.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Iconfont",
+      "nav_desc": "阿里巴巴矢量图标库",
+      "nav_icon": "https://xiezhendong.cn/static/images/iconfont.svg",
+      "nav_url": "https://www.iconfont.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "iconpark",
+      "nav_desc": "字节跳动旗下图标库",
+      "nav_icon": "https://xiezhendong.cn/static/images/iconp.svg",
+      "nav_url": "https://iconpark.oceanengine.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "fontawesome",
+      "nav_desc": "完美的图标字体 只为Bootstrap设计",
+      "nav_icon": "https://xiezhendong.cn/static/images/font-awesome.png",
+      "nav_url": "http://www.fontawesome.com.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Unicode 字符百科",
+      "nav_desc": " 字符搜索Web服务。 查找并复制您最喜欢的角色：😎表情符号，▶Ar箭头，✪星星，💲货币，🈂️书写系统等",
+      "nav_icon": "https://xiezhendong.cn/static/images/unicode.png",
+      "nav_url": "https://unicode-table.com/cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "vite",
+      "nav_desc": "下一代前端开发与构建工具",
+      "nav_icon": "https://xiezhendong.cn/static/images/vite.png",
+      "nav_url": "https://vitejs.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "webpack",
+      "nav_desc": "代码模块化构建打包工具",
+      "nav_icon": "https://xiezhendong.cn/static/images/webpack.png",
+      "nav_url": "https://webpack.js.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Gulp",
+      "nav_desc": "基于流的自动化构建工具",
+      "nav_icon": "https://xiezhendong.cn/static/images/gulp.png",
+      "nav_url": "https://www.gulpjs.com.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "FIS3",
+      "nav_desc": "FIS3 , 为你定制的前端工程构建工具",
+      "nav_icon": "https://xiezhendong.cn/static/images/fis.png",
+      "nav_url": "https://fex-team.github.io/fis3/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "Browserify",
+      "nav_desc": "遵循commonjs规范的模块化工具",
+      "nav_icon": "https://xiezhendong.cn/static/images/browserify.png",
+      "nav_url": "https://browserify.org/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "清华大学开源镜像",
+      "nav_desc": "清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务",
+      "nav_icon": "https://xiezhendong.cn/static/images/qinghuajingxiang.png",
+      "nav_url": "https://mirrors.tuna.tsinghua.edu.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "阿里云开源镜像",
+      "nav_desc": "阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区",
+      "nav_icon": "https://xiezhendong.cn/static/images/aliyun.ico",
+      "nav_url": "https://opsx.alibaba.com/mirror",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "科大开源镜像",
+      "nav_desc": "由中国科学技术大学在校的 GNU/Linux 爱好者发起并组成的一个全校性群众团体。",
+      "nav_icon": "https://xiezhendong.cn/static/images/keda.jfif",
+      "nav_url": "http://mirrors.ustc.edu.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "华为开源镜像",
+      "nav_desc": "华为云DevCloud团队提供的全类型镜像站服务，提供主流开发语言组件、操作系统、常用工具和库等镜像，极速下载，全站CDN，官方合作。",
+      "nav_icon": "https://xiezhendong.cn/static/images/huawei.png",
+      "nav_url": "https://mirrors.huaweicloud.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "uigreat",
+      "nav_desc": "优秀设计师的贴心伴侣",
+      "nav_icon": "https://xiezhendong.cn/static/images/uigreat.jpg",
+      "nav_url": "https://uigreat.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "站酷",
+      "nav_desc": "打开站酷,发现更好的设计",
+      "nav_icon": "https://xiezhendong.cn/static/images/zcool-favicon.jpg",
+      "nav_url": "https://www.zcool.com.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "ui中国",
+      "nav_desc": "专业用户体验设计平台",
+      "nav_icon": "https://xiezhendong.cn/static/images/yearlogo.png",
+      "nav_url": "https://www.ui.cn/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "花瓣",
+      "nav_desc": "发现、采集你喜欢的UI设计素材、交互设计素材",
+      "nav_icon": "https://xiezhendong.cn/static/images/huaban.png",
+      "nav_url": "https://huaban.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "蓝湖",
+      "nav_desc": "高效的产品设计协作平台",
+      "nav_icon": "https://xiezhendong.cn/static/images/lanhu.png",
+      "nav_url": "https://lanhuapp.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "抖音",
+      "nav_icon": "https://xiezhendong.cn/static/images/douyin.png",
+      "nav_desc": "短视频-记录美好生活",
+      "nav_url": "https://www.douyin.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "1090影视",
+      "nav_icon": "https://xiezhendong.cn/static/images/1090ys.png",
+      "nav_desc": "免费无删减电影,无水印高清在线播放影视网站",
+      "nav_url": "http://1090ys8.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "虎牙",
+      "nav_icon": "https://xiezhendong.cn/static/images/huya.png",
+      "nav_desc": "虎牙直播顶级游戏赛事直播，专业赛事直播，包括赛事直播，比赛视频，赛事战报，赛事资讯等。看电竞比赛，到虎牙。",
+      "nav_url": "https://www.huya.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    },
+    {
+      "nav_title": "哔哩哔哩",
+      "nav_icon": "https://xiezhendong.cn/static/images/bili.png",
+      "nav_desc": "bilibili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
+      "nav_url": "https://www.bilibili.com/",
+      "type_num": "1",
+      "nav_sort": "1"
+    }
+  ]
+}
