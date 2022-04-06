@@ -1,5 +1,5 @@
 import { createProdMockServer } from 'vite-plugin-mock/es/createProdMockServer'
-import data from './data'
+import data from '../src/assets/data'
 const mockArr = [
     {
         url: '/api/project/list',

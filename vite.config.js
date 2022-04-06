@@ -11,7 +11,15 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 4000,
-    open:true
+    open: true,
+    proxy: {
+      '/api': {
+        target: 'https://xiezhendong.cn',
+        changeOrigin: true,
+        rewrite: (path) => path.replace("/api", '/api')
+      },
+    }
+
   },
   plugins: [vue(), viteMockServe({
     mockPath: 'mock',

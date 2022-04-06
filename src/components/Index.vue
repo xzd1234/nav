@@ -5,11 +5,13 @@ import data from '../assets/data.js'
 import { Search } from '@element-plus/icons-vue'
 
 const list = ref([])
-list.value = data
-/* axios.post('/api/project/list').then(res => {
-  console.log(res.data.data)
-  list.value = res.data.data
-}) */
+const footerList = ref([
+  { name: '© 2021 BY ', desc: ' XZD', url: 'https://xiezhendong.cn/nav/' },
+  { name: '备案号', desc: ' 浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
+])
+axios.get('/api/koa/dataList').then(res => {
+  list.value = res.data
+})
 const goto = (val) => {
   window.open(val)
 }
@@ -75,7 +77,7 @@ const onSearch = () => {
         src="https://i.tianqi.com/?c=code&a=getcode&color=%23FFFFFF&id=35&site=34&icon=1"
       ></iframe>
     </div>
-    <div class="common item" v-for="(item, i) of list.menuList" :key="i">
+    <div class="common item" v-for="(item, i) of list" :key="i">
       <div class="item-title">{{ item.name }}</div>
       <ul class="list-box">
         <li v-for="(obj, j) in item.list" :key="j" @click="goto(obj.url)">
@@ -88,7 +90,7 @@ const onSearch = () => {
       </ul>
     </div>
     <footer class="common">
-      <div class="text" v-for="(item, i) of list.footerList" :key="i">
+      <div class="text" v-for="(item, i) of footerList" :key="i">
         {{ item.name }}
         <span @click="goto(item.url)">{{ item.desc }}</span>
       </div>
