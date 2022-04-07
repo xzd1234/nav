@@ -47,7 +47,7 @@ const onSearch = () => {
 <template>
   <div :class="['pages', bgStatus]">
     <div class="header-box common">
-      <div class="logo">工具包</div>
+      <div class="logo">工具库</div>
       <div class="input-box">
         <el-input
           v-model="input3"
