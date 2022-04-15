@@ -9,7 +9,7 @@ const footerList = ref([
   { name: '备案号', desc: ' 浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
 ])
 axios.get('/api/koa/dataList').then(res => {
-  list.value = res.data
+  list.value = res.data.data
 })
 const goto = (val) => {
   window.open(val)

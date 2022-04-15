@@ -3,7 +3,6 @@ import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
-import { viteMockServe } from 'vite-plugin-mock';
 // https://vitejs.dev/config/
 export default defineConfig({
   root: './',
@@ -14,17 +13,15 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: 'https://xiezhendong.cn',
+       // target: 'https://xiezhendong.cn',
+       target: 'http://127.0.0.1:3000',
         changeOrigin: true,
         rewrite: (path) => path.replace("/api", '/api')
       },
     }
 
   },
-  plugins: [vue(), viteMockServe({
-    mockPath: 'mock',
-
-  }), AutoImport({
+  plugins: [vue(),  AutoImport({
     resolvers: [ElementPlusResolver()],
   }),
   Components({
