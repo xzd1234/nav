@@ -8,7 +8,7 @@ const footerList = ref([
   { name: '© 2021 BY ', desc: ' XZD', url: 'https://xiezhendong.cn/nav/' },
   { name: '备案号', desc: ' 浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
 ])
-axios.get('/api/koa/dataList').then(res => {
+axios.post('/api/koa/get-navigation').then(res => {
   list.value = res.data.data
 })
 const goto = (val) => {
@@ -157,11 +157,15 @@ const onSearch = () => {
     padding: 0;
     margin: 14px 0 0;
     list-style: none;
-    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+   /*  display: grid;
     grid-row-gap: 14px;
     grid-column-gap: 14px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr); */
     li {
+      width:124px;
+      margin: 6px;
       height: 68px;
       padding: 14px;
 
