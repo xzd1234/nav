@@ -6,7 +6,7 @@ import { Search } from '@element-plus/icons-vue'
 const list = ref([])
 const footerList = ref([
   { name: '© 2021 BY ', desc: ' XZD', url: 'https://xiezhendong.cn/nav/' },
-  { name: '备案号', desc: ' 浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
+  { name: '.', desc: ' 浙ICP备2021013242号-1', url: 'https://beian.miit.gov.cn/' },
 ])
 axios.post('/api/koa/get-navigation').then(res => {
   list.value = res.data.data

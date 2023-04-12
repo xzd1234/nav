@@ -5,7 +5,6 @@ import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 // https://vitejs.dev/config/
 export default defineConfig({
-  root: './',
   base: '/nav/',
   server: {
     host: '0.0.0.0',
@@ -13,8 +12,8 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-       // target: 'https://xiezhendong.cn',
-       target: 'http://127.0.0.1:3000',
+        target: 'https://xiezhendong.cn',
+       //target: 'http://127.0.0.1:3000',
         changeOrigin: true,
         rewrite: (path) => path.replace("/api", '/api')
       },
